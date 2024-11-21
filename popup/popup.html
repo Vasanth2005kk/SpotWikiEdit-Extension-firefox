@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SpotWikiEdit</title>
+    <link rel="icon" href="../icons/logo-32.png">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <form id="firstForm">
+        <label for="username" class="label">Bot Username</label><br>
+        <input type="text" id="username" name="name" placeholder="Enter your username" required value="RCvasanth2005kk"><br>
+
+        <label for="password" class="label">Bot Password</label><br>
+        <input type="password" id="myInput" name="password" placeholder="Enter your password" required value="V@s@nth2005kk"><br>
+
+        <div class="btn">
+            <button id="loginbtn" type="button" >Log in</button>
+        </div>
+    </form>
+
+    <form id="secondForm" class="active">
+        <label for="Search_word">Search word</label><br>
+        <input type="text" id="Search_word" name="old_words" placeholder="Enter Search Word" required><br>
+    
+        <label for="Replace_word">Replace word</label><br>
+        <input type="text" id="Replace_word" name="new_words" placeholder="Enter Replace Word" required><br>
+    
+        <div id="btn">
+            <button type="submit" class="confirmbtn" id="confirmBTN">Confirm</button>
+            <button type="reset">Clear</button>
+        </div>
+        <div class="logout">
+            <span id="wikiUsername">User Name !</span>
+            <button id="logoutbtn"></button>
+        </div>
+    </form>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
